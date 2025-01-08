@@ -13,7 +13,7 @@ import Signup from './assets/Components/Signup';
 import Verify_otp from './assets/Components/Verify_otp';
 import { CardProvider, CartContext } from './assets/Context/CartContext';
 import Password from './assets/Components/Password';
-import Signin from './assets/Components/Signin';
+// import Signin from './assets/Components/Signin';
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/verify-otp" element={<Verify_otp />} />
-        <Route path="/signin" element={<Signin />} />
+        {/* <Route path="/signin" element={<Signin />} /> */}
         <Route path="/password" element={<Password />} />
         
 
