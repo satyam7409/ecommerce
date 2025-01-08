@@ -13,7 +13,6 @@ import Signup from './assets/Components/Signup';
 import Verify_otp from './assets/Components/Verify_otp';
 import { CardProvider, CartContext } from './assets/Context/CartContext';
 import Password from './assets/Components/Password';
-import SignIn from './assets/Components/Signin';
 
 function App() {
   return (
