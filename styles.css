@@ -1,0 +1,55 @@
+/* General styling for layout */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    padding: 4rem 0;
+}
+
+.about, .benefits, .products {
+    padding: 2rem 0;
+}
+
+.benefit-box {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.product-card {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    margin-top: 3rem;
+}
+
+/* Navbar customization */
+.navbar-brand {
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-link {
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}

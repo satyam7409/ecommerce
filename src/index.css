@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-slider .slick-track {
+    margin-left: 50px !important; /* Force override */
+  }
+  
