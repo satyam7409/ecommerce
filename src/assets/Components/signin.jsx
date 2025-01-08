@@ -56,7 +56,7 @@ const SignIn = () => {
           Get an OTP on your phone
         </button>
       </div>
-    </div>
+    </div>  
   );
 };
 
